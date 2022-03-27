@@ -1,0 +1,57 @@
+'''Program to print two different strings “Hello” and “World” in different lines.'''
+print("hello\nworld")
+
+
+
+'''Program to add two entered integer values.'''
+a= int(input("Enter digit1"))
+b= int(input("Enter digit2"))
+c= a+b
+print("sum :",c)
+
+
+
+'''Program to multiply two entered integer values.'''
+a= int(input("Enter digit1"))
+b= int(input("Enter digit2"))
+c= a*b
+print("product :",c)
+
+
+
+'''Program to input two integer values and calculate first number raised to the power second
+	number.'''
+  a= int(input("Enter digit1"))
+b= int(input("Enter digit2"))
+result = pow(a,b)
+print("result:",result)
+
+
+
+'''Program to find the area and perimeter of a rectangle, when the required input (Length and
+	Breadth) are entered by the user.'''
+  l= float(input("Enter lenght"))
+b= float(input("Enter breadth"))
+area = float(l*b)
+pm= float(2*(l+b))
+print("perimeter =",pm,"unit")
+print("area=",area, "sq units")
+
+
+r = float(input("Enter the radius"))
+pi= 3.14
+area = float(pi*r*r)
+circumference = float(2*pi*r)
+print("area of circle =", area ,"sq units")
+print("circumference of a circle =%.2f"%circumference,"units")
+
+
+
+'''Program to find the hypotenuse of a right angled triangle, when the base and height are entered
+	by the user.'''
+  from math import sqrt
+print("Enter shorter sides of triangle")
+a= float(input("a :"))
+b= float(input("b :"))
+c= sqrt(pow(a,2)+pow(b,2))
+print("the length of hypotenuse is :",c)
