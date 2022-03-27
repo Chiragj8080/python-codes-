@@ -55,3 +55,17 @@ a= float(input("a :"))
 b= float(input("b :"))
 c= sqrt(pow(a,2)+pow(b,2))
 print("the length of hypotenuse is :",c)
+
+
+
+'''print("the values of a now is  :",a)'''
+a= float(input("a :"))
+b= float(input("b :"))
+c= a
+a= b
+b= c
+print("the values of a now is  :",a)
+print("the values of b now is  :",b)
+
+
+
